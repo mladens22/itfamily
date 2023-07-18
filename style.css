@@ -1,0 +1,153 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+    background-color: #122A24;
+    height: 108px;
+    font-family: "paralucent";
+}
+
+.logo{
+    width: 101px;
+    height: 46.8px;
+    padding: 33.5px 0 0 301px;
+}
+
+.icon-text{
+    display: flex;
+    gap: 9px;
+}
+
+.sector-reference, .about-news,.careers-subsidiaries{
+    display: flex;
+    flex-direction: column;
+    color: #FEFEFE;
+    gap: 8px;
+    margin-left: 100px;
+    padding-top: 28px;
+}
+
+.contact-button{
+    display: flex;
+    color: #FEFEFE;
+
+}
+
+.sector-reference{
+    margin-left: 400px!important;
+}
+
+.contact{
+display: flex;
+align-items: center;
+margin-bottom: 21px;
+}
+
+.logo-links{
+    display: flex;
+    align-items: center;
+}
+
+ .btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 100px;
+    padding: 4px 0;
+    background-color: #e8e8e8;
+    color: #FEFEFE;
+    margin-left: 110px;
+    cursor: pointer;
+    border:none;
+    font-size: 12px;
+} 
+
+.line{
+    background-color: #1D4138;
+}
+
+.background {
+    width: 100vw;
+    position: relative;
+}
+
+.background-text{
+    font-family: 'paralucent';
+    font-size: 56px;
+    color: #FEFEFE;
+    position: absolute;
+    top: 228px;
+    left: 302px;
+    line-height: 67px;
+}
+
+.search-filters{
+    display: flex;
+    font-family: "paralucent";
+}
+
+.input{
+    position: absolute;
+    width:  1057px;
+    height:  41px;
+    left: 302px;
+    padding: 12px 16px 12px 16px;
+    border-radius: 50px;
+    border: 1px solid #1D4138;
+    background-color: #1D4138;  
+    gap: 8px;
+    top: 400px;
+    
+}
+
+.plus-filters{
+width: 12px;
+height: 17px;
+}
+
+.filters{
+    position: absolute;
+    border-radius: 50px;
+    width: 91px;
+    height: 41px;
+    padding: 12px 16px;
+    top: 400px;
+    left: 1400px;
+    color: #FEFEFE;
+    background-color: #1D4138;
+    border: none;
+    font-size: 16px;
+    display: flex;
+    gap: 7px;
+    justify-content: center;
+    align-items: center;
+    font-family: "paralucent";
+}
+
+.sort{
+    display: flex;
+    position: absolute;
+    left: 1510px;
+    top: 413px;
+    justify-content: center;
+    align-items: baseline;
+    gap: 6px;
+}
+
+.sort-by{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #BEBEBE;
+}
+
+.sort-latest{
+    font-family: "paralucent";
+    font-size: 16px;
+    color: #FEFEFE;
+}
