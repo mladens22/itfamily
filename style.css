@@ -1,5 +1,4 @@
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -17,6 +16,12 @@ nav{
     width: 101px;
     height: 46.8px;
     padding: 33.5px 0 0 301px;
+}
+
+.logo2{
+    width: 101px;
+    height: 46.8px;
+    padding: 33.5px 0 0 270px;
 }
 
 .icon-text{
@@ -59,7 +64,7 @@ margin-bottom: 21px;
     height: 32px;
     border-radius: 100px;
     padding: 4px 0;
-    background-color: #e8e8e8;
+    background-color: #415450;
     color: #FEFEFE;
     margin-left: 110px;
     cursor: pointer;
@@ -100,11 +105,23 @@ margin-bottom: 21px;
     padding: 12px 16px 12px 16px;
     border-radius: 50px;
     border: 1px solid #1D4138;
-    background-color: #1D4138;  
+    background-color: #122A24;  
     gap: 8px;
     top: 400px;
-    
 }
+
+input::placeholder{
+    font-family: "Roboto";
+    color: #FEFEFE;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+input:focus {
+    outline: none;
+    color: #FEFEFE;
+  }
 
 .plus-filters{
 width: 12px;
@@ -120,8 +137,8 @@ height: 17px;
     top: 400px;
     left: 1400px;
     color: #FEFEFE;
-    background-color: #1D4138;
-    border: none;
+    background-color: #122A24;
+    border: 1px solid #1D4138;
     font-size: 16px;
     display: flex;
     gap: 7px;
@@ -314,4 +331,67 @@ height: 17px;
    padding: 30px 0 0 40px;
    gap: 8px;
    align-items: center;
+}
+
+footer{
+    font-family: "paralucent";
+    background-color: #FEFEFE;
+    height: 250px;
+    position: relative;
+}
+
+.logos{
+    display: flex;
+    flex-direction: column;
+}
+
+.container__footer{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.social__media{
+    width: 70px;
+    height: 50px;
+    padding: 33.5px 0 0 270px;
+}
+
+.footer__sectors, .footer__references{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #151515;
+}
+
+.footer__links{
+    margin-left: 300px;
+}
+
+.footer__btn{
+    width: 32px;
+    height: 32px;
+    border-radius: 100px;
+    padding: 4px 0;
+    background-color: #E8E8E8;
+    color: #151515;
+    font-weight: 500;
+    margin-left: 110px;
+    cursor: pointer;
+    border:none;
+    font-size: 12px;
+}
+
+.terms__conditions{
+    display: flex;
+    font-family: "Roboto";
+    line-height: 20px;
+    font-size: 16px;
+    color: #BEBEBE;
+    font-weight: 400;
+    gap: 25px;
+    position: absolute;
+    right:280px;
+    top: 161px;
 }
