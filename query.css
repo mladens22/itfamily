@@ -1,0 +1,78 @@
+@media(max-width:1620px) {
+    .sector-reference {
+        margin-left: 250px!important;
+    }
+
+    .logo {
+        padding: 33.5px 0 0 161px;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        margin-bottom: -11px;
+    }
+
+    .arrow__icon {
+        display: none;
+    }
+
+    .background-text,
+    .input {
+        left: 142px;
+    }
+
+    .input {
+        width: 427px;
+    }
+
+    .filters {
+        left: 600px;
+    }
+
+    .project {
+        width: 560px;
+    }
+
+    .sort {
+        left: 730px;
+    }
+
+    .people_together {
+        font-size: 39px;
+        line-height: 47.2px;
+        height: 114px;
+        width: 309px;
+    }
+
+    .peoples_btns {
+        padding: 20px 0 0 40px;
+    }
+
+    .people_text {
+        width: 369px;
+        padding: 0 40px;
+        font-size: 16px;
+
+    }
+
+    .footer__links {
+        margin-left: 140px!important;
+    }
+
+    .logo2,
+    .social__media {
+        padding: 33.5px 0 0 141px;
+    }
+
+    .people_description {
+        left: 800px;
+        width: 550px;
+        height: 342px;
+    }
+}
+
+@media(max-width:1350px){
+    
+}
