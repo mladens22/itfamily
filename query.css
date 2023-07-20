@@ -73,137 +73,246 @@
     }
 }
 
-@media(max-width:1350px){
-    .people_description{
+@media(max-width:1350px) {
+    .people_description {
         width: 410px;
         height: 322px;
     }
 
-    .people_together{
-    font-size: 29px;
-    line-height: 37.2px;
-    height: 94px;
-    padding: 10px 30px 0 30px;
-    width: 229px;
+    .people_together {
+        font-size: 29px;
+        line-height: 37.2px;
+        height: 94px;
+        padding: 10px 30px 0;
+        width: 229px;
     }
 
-    .people_text{
+    .people_text {
         width: 299px;
-    padding: 0 30px;
-    font-size: 13px;
+        padding: 0 30px;
+        font-size: 13px;
     }
 
-    .project__text{
+    .project__text {
         font-size: 22px;
         width: 449px;
     }
 
-    .people_btns{
+    .people_btns {
         padding: 20px 0 0 30px;
     }
 
-    .container{
+    .container {
         width: 1206px;
 
     }
 
-    .logo{
+    .logo {
         padding: 33.5px 0 0 81px;
     }
 
-    .careers-subsidiaries{
+    .careers-subsidiaries {
         margin-left: 70px;
 
     }
 
-    .logo2, .social__media{
+    .logo2,
+    .social__media {
         padding: 33.5px 0 0 51px;
 
     }
 
-    .footer__links{
+    .footer__links {
         margin-left: 40px!important;
     }
 
-    .contact{
+    .contact {
         margin-left: -110px;
 
     }
 
-    .sector-reference{
+    .sector-reference {
         margin-left: 130px!important;
     }
 
-    .project{
+    .project {
         width: 480px;
     }
 }
 
-@media(max-width:1225px){
-    .project{
+@media(max-width:1225px) {
+    .project {
         width: 410px;
     }
 
-    .project__text{
+    .project__text {
         width: 369px;
     }
 
-    .container{
+    .container {
         width: 1026px;
     }
 
-    .people_description{
+    .people_description {
         width: 310px;
         height: 252px;
         left: 685px;
     }
 
-    .people_together{
+    .people_together {
         font-size: 25px;
         line-height: 32.2px;
         height: 84px;
         width: 199px;
     }
 
-    .people_text{
+    .people_text {
         width: 267px;
         font-size: 12px;
         margin-top: -16px;
 
     }
 
-    .people_btns{
+    .people_btns {
         padding-top: 10px;
     }
 
-    .people_btn{
+    .people_btn {
         font-size: 11px;
         padding: 8px 12px;
     }
 }
 
 @media(max-width:1055px) {
-.container{
-    width: 966px;
-}
-.projects{
-    gap: 15px;
-}
-
-.project{
-    width: 340px;
-}
-.project__text{
-    font-size: 18px;
-    width: 299px;
-}
-
-.people_description{
-    left: 575px;
-    top: 33px;
-}
+    .container {
+        width: 966px;
+    }
+    .projects {
+        gap: 15px;
     }
 
-@media(max-width:965px){
-    
+    .project {
+        width: 340px;
+    }
+    .project__text {
+        font-size: 18px;
+        width: 299px;
+    }
+
+    .people_description {
+        left: 575px;
+        top: 33px;
+    }
+}
+
+@media(max-width:965px) {
+
+    .project {
+        width: 280px;
+    }
+    .container {
+        width: 776px;
+    }
+
+    .container__footer {
+        gap: 30px;
+    }
+
+    .terms__conditions {
+        right: 170px;
+    }
+
+    .people_description {
+        left: 505px;
+        top: 23px;
+    }
+
+    .people_text {
+        width: 227px;
+        font-size: 11px;
+    }
+
+    .logo-links {
+        flex-wrap: wrap;
+    }
+
+    nav {
+        height: auto;
+    }
+    .contact {
+        padding-bottom: 30px;
+    }
+}
+
+@media(max-width:825px) {
+    .input {
+        left: 25px;
+        width: 227px;
+    }
+
+    .filters {
+        left: 270px;
+    }
+
+    .sort {
+        left: 380px;
+    }
+
+    .container {
+        width: 666px;
+    }
+
+    .project {
+        width: 250px;
+    }
+
+    .project__text {
+        font-size: 15px;
+        width: 239px;
+    }
+    .project__country p {
+        font-size: 11px;
+        line-height: 16px;
+    }
+    .people_description {
+        left: 425px;
+        top: 8px;
+        width: 250px;
+        height: 232px;
+    }
+
+    .people_text {
+        width: 137px;
+        font-size: 10px;
+        margin-top: -34px;
+    }
+
+    .people_together {
+        font-size: 17px;
+        line-height: 22.2px;
+        height: 84px;
+        width: 139px;
+    }
+
+    .people_btns {
+        padding-top: 1px;
+    }
+
+    .people_btn {
+        font-size: 10px;
+        padding: 7px 11px;
+    }
+
+    .terms__conditions{
+        right: 50px;
+    }
+
+    .contact__footer{
+        margin-bottom: -49px;
+    }
+
+}
+
+@media(max-width:700px){
+
 }
