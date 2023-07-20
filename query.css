@@ -46,7 +46,7 @@
         width: 309px;
     }
 
-    .peoples_btns {
+    .people_btns {
         padding: 20px 0 0 40px;
     }
 
@@ -74,5 +74,136 @@
 }
 
 @media(max-width:1350px){
+    .people_description{
+        width: 410px;
+        height: 322px;
+    }
+
+    .people_together{
+    font-size: 29px;
+    line-height: 37.2px;
+    height: 94px;
+    padding: 10px 30px 0 30px;
+    width: 229px;
+    }
+
+    .people_text{
+        width: 299px;
+    padding: 0 30px;
+    font-size: 13px;
+    }
+
+    .project__text{
+        font-size: 22px;
+        width: 449px;
+    }
+
+    .people_btns{
+        padding: 20px 0 0 30px;
+    }
+
+    .container{
+        width: 1206px;
+
+    }
+
+    .logo{
+        padding: 33.5px 0 0 81px;
+    }
+
+    .careers-subsidiaries{
+        margin-left: 70px;
+
+    }
+
+    .logo2, .social__media{
+        padding: 33.5px 0 0 51px;
+
+    }
+
+    .footer__links{
+        margin-left: 40px!important;
+    }
+
+    .contact{
+        margin-left: -110px;
+
+    }
+
+    .sector-reference{
+        margin-left: 130px!important;
+    }
+
+    .project{
+        width: 480px;
+    }
+}
+
+@media(max-width:1225px){
+    .project{
+        width: 410px;
+    }
+
+    .project__text{
+        width: 369px;
+    }
+
+    .container{
+        width: 1026px;
+    }
+
+    .people_description{
+        width: 310px;
+        height: 252px;
+        left: 685px;
+    }
+
+    .people_together{
+        font-size: 25px;
+        line-height: 32.2px;
+        height: 84px;
+        width: 199px;
+    }
+
+    .people_text{
+        width: 267px;
+        font-size: 12px;
+        margin-top: -16px;
+
+    }
+
+    .people_btns{
+        padding-top: 10px;
+    }
+
+    .people_btn{
+        font-size: 11px;
+        padding: 8px 12px;
+    }
+}
+
+@media(max-width:1055px) {
+.container{
+    width: 966px;
+}
+.projects{
+    gap: 15px;
+}
+
+.project{
+    width: 340px;
+}
+.project__text{
+    font-size: 18px;
+    width: 299px;
+}
+
+.people_description{
+    left: 575px;
+    top: 33px;
+}
+    }
+
+@media(max-width:965px){
     
 }
