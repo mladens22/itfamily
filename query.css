@@ -20,7 +20,7 @@
 
     .background-text,
     .input {
-        left: 142px;
+        left: 72px;
     }
 
     .input {
@@ -28,7 +28,7 @@
     }
 
     .filters {
-        left: 600px;
+        left: 540px;
     }
 
     .project {
@@ -36,7 +36,12 @@
     }
 
     .sort {
-        left: 730px;
+        left: 660px;
+    }
+
+    .search-filters{
+        position: absolute;
+        top: -80px;
     }
 
     .people_together {
@@ -173,6 +178,27 @@
 
     }
 
+    .background-text{
+        left: 52px;
+        top: 158px;
+    }
+
+    .search-filters{
+        top: -160px;
+    }
+
+    .input{
+        width: 257px;
+    }
+
+    .filters{
+        left: 360px;
+    }
+
+    .sort{
+        left: 490px;
+    }
+
     .people_btns {
         padding-top: 10px;
     }
@@ -303,16 +329,188 @@
         padding: 7px 11px;
     }
 
-    .terms__conditions{
+    .background-text{
+        font-size: 36px;
+        line-height: 147px;
+    }
+    .search-filters{
+        top: -120px;
+    }
+    .input{
+        left: 44px;
+    }
+    .terms__conditions {
         right: 50px;
     }
 
-    .contact__footer{
+    .contact__footer {
         margin-bottom: -49px;
     }
 
 }
 
-@media(max-width:700px){
+@media(max-width:700px) {
+    .projects {
+        gap: 10px;
+    }
+
+    .container {
+        width: 546px;
+    }
+
+    .container__footer {
+        flex-wrap: wrap;
+    }
+
+    .project {
+        width: 190px;
+        padding: 25px 40px 10px 15px;
+    }
+
+    .background{
+        width: 100%; 
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .project__text {
+        font-size: 13px;
+        width: 189px;
+    }
+
+    .people_description {
+        left: 335px;
+        top: 8px;
+        width: 180px;
+        height: 202px;
+    }
+
+    .people_together {
+        font-size: 12px;
+        line-height: 15.2px;
+        height: 68px;
+        width: 102px;
+    }
+
+    .people_text {
+        line-height: 16px;
+    }
+
+    .people_btn {
+        padding: 8px 4px;
+
+    }
+
+    .terms__conditions {
+        gap: 15px;
+        font-size: 11px;
+        right: 0;
+    }
+}
+
+@media(max-width:540px) {
+    .projects {
+        grid-template-columns: 1fr;
+    }
+
+    .project {
+        width: 307px;
+    }
+
+    .container {
+        width: 296px;
+    }
+
+    .people_description {
+        left: 275px;
+        top: 6px;
+        width: 170px;
+        height: 152px;
+    }
+
+    .people_together {
+        font-size: 10px;
+        line-height: 11.2px;
+        height: 58px;
+    }
+
+    .people_text{
+        line-height: 11px;
+    }
+
+    .people_btn{
+        padding: 4px 4px;
+    }
+}
+
+@media(max-width:495px) {
+
+    .sector-reference, .about-news, .careers-subsidiaries{
+        display: none;
+    }
+
+    .background-text{
+        font-size: 26px;
+        line-height: 7px;
+        top: 128px;
+    }
+
+    .project{
+        height: 216px;
+    }
+
+    .input{
+        width: 317px;
+    }
+
+    .people_description{
+        display: none;
+    }
+
+    .search-filters{
+        top: -230px;
+    }
+
+    .filters{
+        left: 45px;
+        top: 452px;
+    }
+
+    .sort{
+        left: 220px;
+        top: 462px;
+    }
+
+    .sort__by{
+        width: 60px;
+        gap: 2px;
+    }
+
+    .project{
+        width: 247px;
+    }
+
+    .logos{
+        display: flex;
+        flex-direction: initial;
+    }
+
+    .footer__btn{
+        display: none;
+    }
+
+    .terms__conditions{
+        top: 281px;
+        right: 50px;
+        gap: 10px;
+    }
+
+    .careers__footer{
+        padding-left: 40px;
+    }
+
+    .contact__footer{
+        padding-left: 110px;
+    }
 
 }
